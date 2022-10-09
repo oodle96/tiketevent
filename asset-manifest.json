@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/tiketevent/static/css/main.5b52b260.css",
+    "main.js": "/tiketevent/static/js/main.d5dd1237.js",
+    "static/media/exbanner-slider.png": "/tiketevent/static/media/exbanner-slider.4abc0c0684676a59e94f.png",
+    "static/media/event-091022.png": "/tiketevent/static/media/event-091022.164977931c38f8047ee0.png",
+    "static/media/vector-person.png": "/tiketevent/static/media/vector-person.d2e4900f8df7498bddfe.png",
+    "static/media/exbanner.png": "/tiketevent/static/media/exbanner.d81bec38bca46b7ba312.png",
+    "index.html": "/tiketevent/index.html",
+    "main.5b52b260.css.map": "/tiketevent/static/css/main.5b52b260.css.map",
+    "main.d5dd1237.js.map": "/tiketevent/static/js/main.d5dd1237.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b52b260.css",
+    "static/js/main.d5dd1237.js"
+  ]
+}
