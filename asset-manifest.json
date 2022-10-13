@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/tiketevent/static/css/main.281613ee.css",
-    "main.js": "/tiketevent/static/js/main.6f233260.js",
+    "main.css": "/tiketevent/static/css/main.d648df3a.css",
+    "main.js": "/tiketevent/static/js/main.6d94599d.js",
     "static/media/exbanner-slider.png": "/tiketevent/static/media/exbanner-slider.bfe9577d3da41f0907e8.png",
     "static/media/event-091022.png": "/tiketevent/static/media/event-091022.2f60da6a9c0915c2ba71.png",
+    "static/media/banner-about.png": "/tiketevent/static/media/banner-about.66b108e04bf1ed1040fd.png",
+    "static/media/tiket-banner.png": "/tiketevent/static/media/tiket-banner.52b1bdb099e36314f685.png",
     "static/media/vector-person.png": "/tiketevent/static/media/vector-person.d2e4900f8df7498bddfe.png",
     "static/media/exbanner.png": "/tiketevent/static/media/exbanner.d81bec38bca46b7ba312.png",
     "index.html": "/tiketevent/index.html",
-    "main.281613ee.css.map": "/tiketevent/static/css/main.281613ee.css.map",
-    "main.6f233260.js.map": "/tiketevent/static/js/main.6f233260.js.map"
+    "main.d648df3a.css.map": "/tiketevent/static/css/main.d648df3a.css.map",
+    "main.6d94599d.js.map": "/tiketevent/static/js/main.6d94599d.js.map"
   },
   "entrypoints": [
-    "static/css/main.281613ee.css",
-    "static/js/main.6f233260.js"
+    "static/css/main.d648df3a.css",
+    "static/js/main.6d94599d.js"
   ]
 }
