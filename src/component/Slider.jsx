@@ -34,18 +34,17 @@ export default function App() {
       >
         <SwiperSlide>
             <div className="d-flex align-items-center justify-content-center">
-                <img className='img-fluid mb-5 pt-5' src={BannerSlider} alt='bannerslider'></img>
-            </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <div className="d-flex align-items-center justify-content-center">
-                <img className='img-fluid mb-5 pt-5' src={BannerSlider} alt='bannerslider'></img>
+                <img className='img-fluid' src={BannerSlider} alt='bannerslider'></img>
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className="d-flex align-items-center justify-content-center">
-                <img className='img-fluid mb-5 pt-5' src={BannerSlider} alt='bannerslider'></img>
+                <img className='img-fluid' src={BannerSlider} alt='bannerslider'></img>
+            </div>
+        </SwiperSlide>
+        <SwiperSlide>
+            <div className="d-flex align-items-center justify-content-center">
+                <img className='img-fluid' src={BannerSlider} alt='bannerslider'></img>
             </div>
         </SwiperSlide>
       </Swiper>

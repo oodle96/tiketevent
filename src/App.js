@@ -1,24 +1,35 @@
-import logo from './logo.svg';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 import './App.css';
+import Home from './component/Home.js';
+import Buy from './component/Buy.js';
+import About from './component/About.js';
+import Account from './component/Account.js';
+import Signup from './component/Signup.js';
+import Reset from './component/Reset.js';
+import Navbar from './component/Navbar';
+import PusatBantuan from './component/PusatBantuan';
+import Event from './component/Event';
+import Tiket from './component/Tiket'
+import Footer from './component/Footer';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter basename='/tiketevent'>
+    <Navbar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='buy' element={<Buy />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/pusat-bantuan' element={<PusatBantuan />} />
+        <Route path='/account' element={<Account />} />
+        <Route path='/signup' element={<Signup />} />
+        <Route path='/reset' element={<Reset />} />
+        <Route path='/event' element={<Event />} />
+        <Route path='/event/tiket' element={<Tiket />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

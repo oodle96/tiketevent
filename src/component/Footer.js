@@ -7,8 +7,8 @@ import { FaRegPhoneAlt } from 'react-icons/fa'
 function Footer() {
   return (
     <div className='d-flex mw-100 justify-content-center'>
-        <div className='mw-nav d-flex justify-content-center w-100'>
-            <div className='mw-footer d-flex position-relative align-items-center justify-content-between w-100'>
+        <div className='mw-footer d-flex justify-content-center w-100'>
+            <div className='px-4 d-flex position-relative align-items-center justify-content-between w-100'>
                 <div className='d-flex container'>
                     <div className='d-flex align-items-center'>
                         <img src={logofooter} className='img-fluid' alt='logo2' />

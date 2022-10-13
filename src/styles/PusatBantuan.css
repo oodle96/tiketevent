@@ -1,0 +1,44 @@
+.font-header {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 39px;
+}
+
+.max-btn-faq {
+    width: 257px!important;
+    height: 98px!important;
+}
+
+.font-bold-1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 165%;
+}
+
+.font-bold-2{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 39px;
+}
+
+.font-small{
+    font-size: 0.5rem!important;
+}
+
+.height-35 {
+    height: 50vh;
+  }
+
+.font-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+}

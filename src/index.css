@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@600&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +10,121 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+li {
+  list-style-type: none;
+}
+
+.bg-blue {
+  background-color: #dcefff;
+}
+
+.bg-blueocean {
+  background-color: #279BFF;
+  ;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.text-gray {
+  color: #767676;
+}
+.text-bold {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 50px;
+}
+
+.max-card {
+  max-width: 350px!important;
+}
+
+.max-card-md {
+  max-width: 540px!important;
+}
+
+.max-banner {
+  max-width: 1920px!important;
+}
+
+.container-lg {
+  max-width: 1140px!important;
+}
+
+.swiper-pagination-bullets {
+  bottom: 130px!important;
+
+}
+
+.mt-n1{
+  margin-top: -7.3em;
+  z-index: 99;
+}
+
+
+.font-12 {
+  font-size: 0.75rem;
+}
+
+.container {
+  max-width: 1920px!important;
+}
+
+.mw-nav {
+  max-width: 1920px;
+}
+
+
+.urbanist {
+  font-family: 'Urbanist', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.app-bg {
+  height: 79vh;
+
+  background-color: #e5e5e5;
+  background-position: contain;
+  background-size: 100%;
+}
+
+.banner-event {
+  width: 2vw;
+}
+
+.max-content {
+  width: max-content!important;
+}
+
+.grey-sm {
+  color: #8e8e93;
+  font-size: 0.8rem;
+  line-height: 15px;
+}
+
+.btn-light {
+  background-color: #FFFFFF!important;
 }

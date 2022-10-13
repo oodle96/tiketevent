@@ -1,0 +1,33 @@
+.swiper-button-prev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px!important;
+    height: 40px!important;
+    margin-left: 0!important;
+    background-image: url(../assets/btn-nav-prev.png)!important;
+    background-repeat: none;
+    background-size: cover;
+    opacity: 80%;
+}
+
+.swiper-button-prev::after {
+    display: none;
+}
+
+.swiper-button-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px!important;
+    height: 40px!important;
+    margin-right: 0!important;
+    background-image: url(../assets/btn-nav-next.png)!important;
+    background-repeat: none;
+    background-size: cover;
+    opacity: 80%;
+}
+
+.swiper-button-next::after {
+    display: none;
+}
